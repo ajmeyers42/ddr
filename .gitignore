@@ -1,0 +1,22 @@
+# Environment and secrets
+.env
+*.env
+*.key
+*.pem
+.esdiag/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Exported Kibana objects with sensitive data (re-export before committing)
+kibana/**/*.ndjson.bak
+
+# Temporary files
+*.tmp
+*.log
